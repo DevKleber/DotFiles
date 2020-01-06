@@ -5,9 +5,9 @@
 ## Kleber 
 ## @klebimsc github/devkleber
 
-URL_VSCODE="https://az764295.vo.msecnd.net/stable/8795a9889db74563ddd43eb0a897a2384129a619/code_1.40.1-1573664190_amd64.deb"
-##URL_VSCODE="https://go.microsoft.com/fwlink/?LinkID=760868"
-URL_SLACK="https://downloads.slack-edge.com/linux_releases/slack-desktop-4.1.2-amd64.deb"
+##URL_VSCODE="https://az764295.vo.msecnd.net/stable/8795a9889db74563ddd43eb0a897a2384129a619/code_1.40.1-1573664190_amd64.deb"
+URL_VSCODE="https://go.microsoft.com/fwlink/?LinkID=760868"
+URL_SLACK="https://downloads.slack-edge.com/linux_releases/slack-desktop-4.2.0-amd64.deb"
 URL_GOOGLE_CHROME="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 URL_DBEAVER="https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb"
 
@@ -92,7 +92,7 @@ npm install -g @angular/cli
 ## Download and install Composer Latest: v1.9.1 ## 
 echo "Install Composer "
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php -r "if (hash_file('sha384', 'composer-setup.php') === 'baf1608c33254d00611ac1705c1d9958c817a1a33bce370c0595974b342601bd80b92a3f46067da89e3b06bff421f182') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
