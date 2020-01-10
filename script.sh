@@ -68,7 +68,7 @@ sudo apt update -y
 mkdir $DIRETORIO_DOWNLOADS
 
 wget -c "$URL_GOOGLE_CHROME"    -P "$DIRETORIO_DOWNLOADS"
-wget -c "$URL_VSCODE"           -P "$DIRETORIO_DOWNLOADS" -O vscode.d
+wget -c "$URL_VSCODE"           -P "$DIRETORIO_DOWNLOADS" -O vscode.deb
 wget -c "$URL_SLACK"            -P "$DIRETORIO_DOWNLOADS"
 wget -c "$URL_DBEAVER"          -P "$DIRETORIO_DOWNLOADS"
 
