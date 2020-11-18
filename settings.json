@@ -1,0 +1,80 @@
+{
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "intelephense.diagnostics.undefinedTypes": false,
+  "intelephense.diagnostics.undefinedMethods":false,
+  // intelephense.diagnostics.undefinedTypes 
+  // intelephense.diagnostics.undefinedFunctions         
+  // intelephense.diagnostics.undefinedConstants         
+  // intelephense.diagnostics.undefinedClassConstants 
+  // intelephense.diagnostics.undefinedProperties 
+  // intelephense.diagnostics.undefinedVariables
+
+  "explorer.compactFolders": false, // não vai compatar as pastas vazias. 
+  "workbench.editor.labelFormat": "short",// mostrar a pasta do arquivo na aba aberta
+  
+  "workbench.iconTheme": "material-icon-theme",
+  "pomodoro.workTime": 30,
+  "window.zoomLevel": 0,
+  "editor.tabSize": 4,
+  
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[php]": {
+    "editor.formatOnSave": true,
+    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
+  "php-cs-fixer.formatHtml": true,
+  "php-cs-fixer.rules": "@PhpCsFixer",
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1605559156533,
+
+
+  "todohighlight.isEnable": true,
+
+  "todohighlight.exclude": [
+      "**/node_modules/**",
+      "**/vendor/**",
+      "**/bower_components/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.vscode/**",
+      "**/.github/**",
+      "**/_output/**",
+      "**/*.min.*",
+      "**/*.map",
+      "**/.next/**"
+  ],
+    "todohighlight.maxFilesForSearch": 5120,
+    "todohighlight.toggleURI": false,
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+}
