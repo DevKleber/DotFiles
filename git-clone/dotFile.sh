@@ -14,5 +14,5 @@ if [ -d "$PATH_DOTFILE" ]
 then 
     echo "${PATH_DOTFILE} ja existe"
 else 
-    cd ~/shellscripts && git clone git@git@github.com:DevKleber/DotFiles.git
+    cd ~/shellscripts && git clone git@github.com:DevKleber/DotFiles.git
 fi

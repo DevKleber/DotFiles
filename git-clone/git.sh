@@ -7,7 +7,7 @@ if [ -d "$DIR_GIT" ]
 then 
     echo "${DIR_GIT} ja existe"
 else 
-    mdkir $DIR_GIT
+    mkdir -p $DIR_GIT
 fi
 
 if [ -d "$PATH_GIT" ]

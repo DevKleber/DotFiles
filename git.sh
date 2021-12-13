@@ -8,5 +8,6 @@ source git-clone/paisagens.sh
 # source git-clone/sites-available.sh
 source git-clone/ulauncher.sh
 source git-clone/User.sh
+source git-clone/extensions.sh
 
 cd $pwd
