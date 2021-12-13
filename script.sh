@@ -26,6 +26,8 @@ source laravel.sh
 # source wine.sh
 source posInstalacao.sh
 
+source crontab.sh
+
 source git.sh
 source angular.sh
 
