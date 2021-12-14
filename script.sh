@@ -18,6 +18,7 @@ source chrome.sh
 source node.sh
 source instalandoDeb.sh
 source peek.sh
+source qbittorrent.sh
 
 source aptInstall.sh
 

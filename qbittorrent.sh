@@ -1,5 +1,4 @@
 #!/bin/bash
 
-INSOMNIA_URL="https://updates.insomnia.rest/downloads/ubuntu/latest?&app=com.insomnia.app&source=website"
-
-wget -c "$INSOMNIA_URL" --output-document="$DIRETORIO_DOWNLOADS/insomnia.deb"
+sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
+sudo apt-get update && sudo apt-get install qbittorrent
