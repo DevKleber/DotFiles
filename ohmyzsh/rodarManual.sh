@@ -37,4 +37,15 @@ echo "zinit light zsh-users/zsh-history-substring-search"
 
 sleep 3
 
+echo "\n\n"
+echo "Após instalado, voce deve reiniciar o computador"
+echo "\n\n"
+echo "Se aparecer o erro"
+echo "$USER/.oh-my-zsh/oh-my-rsh.sh:source:177: no such file or directory: /$USER/.oh-my-zsh/themes/spaceship.zsh-theme"
+
+echo "\n\n"
+echo "rode esses comandos"
+echo 'sudo git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"'
+echo 'sudo ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"'
+
 code ~/.zshrc
