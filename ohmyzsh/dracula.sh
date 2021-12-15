@@ -11,3 +11,5 @@ echo "Fique atento, nesse passo terá muitas perguntas"
 sleep 5
 
 ./install.sh
+
+cd $pwd
