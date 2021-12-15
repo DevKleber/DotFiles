@@ -1,10 +1,14 @@
 #!/bin/bash
-
+echo "\n\n"
 echo "Configura o terminal com o fonte baixada em Edit > Preferences > Custom Fonts"
 echo "Escolha a fonte Fira Code Retina com a fonte 10 "
+sleep 5
 
+echo "\n\n"
 echo "Vou abrir o arquivo de configuração e voce adicione e troque essas configurações."
+sleep 5
 
+echo "\n\n"
 echo 'SPACESHIP_PROMPT_ORDER=('
 echo '  user          # Username section'
 echo '  dir           # Current directory section'
@@ -23,6 +27,14 @@ echo 'SPACESHIP_PROMPT_ADD_NEWLINE=false'
 echo '# SPACESHIP_CHAR_SYMBOL="›"'
 echo 'SPACESHIP_CHAR_SYMBOL="⤷"'
 echo 'SPACESHIP_CHAR_SUFFIX=" "'
+
+echo "no final de tudo cole esse código"
+echo "\n\n"
+echo "zinit light zdharma-continuum/fast-syntax-highlighting"
+echo "zinit light zsh-users/zsh-autosuggestions"
+echo "zinit light zsh-users/zsh-completions"
+echo "zinit light zsh-users/zsh-history-substring-search"
+
 sleep 3
 
 code ~/.zshrc

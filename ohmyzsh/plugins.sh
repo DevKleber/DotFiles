@@ -6,9 +6,9 @@
 sh -c "$(curl -fsSL https://git.io/zinit-install)"
 
 temaAtivo=$(grep -o -P '(?=ZSH_THEME=").*(?=)' ~/.zshrc)
-sed "s/$temaAtivo/ZSH_THEME=\"spaceship\"/g" ~.zshrc
+sed "s/$temaAtivo/ZSH_THEME=\"spaceship\"/g" ~/.zshrc
 
-echo "zinit light zdharma-continuum/fast-syntax-highlighting" >> ~.zshrc
-echo "zinit light zsh-users/zsh-autosuggestions" >> ~.zshrc
-echo "zinit light zsh-users/zsh-completions" >> ~.zshrc
-echo "zinit light zsh-users/zsh-history-substring-search" >> ~.zshrc
+echo "zinit light zdharma-continuum/fast-syntax-highlighting" >> ~/.zshrc
+echo "zinit light zsh-users/zsh-autosuggestions" >> ~/.zshrc
+echo "zinit light zsh-users/zsh-completions" >> ~/.zshrc
+echo "zinit light zsh-users/zsh-history-substring-search" >> ~/.zshrc
