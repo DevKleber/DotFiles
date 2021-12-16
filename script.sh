@@ -34,3 +34,5 @@ source angular.sh
 
 source ohMyZsh.sh
 
+source android.sh
+
