@@ -1,2 +1,3 @@
 # PosInstallLinux
-script to automatize my programs after install linux. 
+
+script to automatize my programs after install linux.
