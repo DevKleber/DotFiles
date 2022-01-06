@@ -20,6 +20,7 @@ PROGRAMAS_PARA_INSTALAR=(
   php-mbstring
   php-curl
   php-gd
+  php-dev
   memcached
   php-memcached
 #   php-sybase
