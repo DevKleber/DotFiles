@@ -3,6 +3,7 @@
 PROGRAMAS_PARA_INSTALAR=(
   plank
   git
+  redis-server
   apache2
   mysql-server
   php 
@@ -25,6 +26,7 @@ PROGRAMAS_PARA_INSTALAR=(
   php-memcached
 #   php-sybase
   php-json
+  php-redis
 )
 
 sudo apt update -y
