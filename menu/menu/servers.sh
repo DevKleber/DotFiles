@@ -1,20 +1,31 @@
 #!/bin/bash
-menuMenuserversName="Servers"
-menuMenuserversDescription="Conectar ao servidor"
-menuMenuserversImage="$pathImagesMenu/servers.png"
-menuMenuserversFile="cinnamon-servers.directory"
-menuMenuserversCategory="Servers"
 
-sudo touch ~/.local/share/desktop-directories/$menuMenuserversFile
+#!/bin/bash
+menuName="Servers"
+menuDescription="Conectar ao servidor"
+menuImage="$pathImagesMenu/servers.png"
+menuFile="cinnamon-servers.directory"
+category="Servers"
 
+fileDirectory=~/.local/share/desktop-directories/$menuFile
+
+# se não existir, cria o item
+if [ ! -f $fileDirectory ]; then
+sudo touch $fileDirectory
 echo "[Desktop Entry] 
-Name=$menuMenuserversName 
-Comment=$menuMenuserversDescription
-Icon=$menuMenuserversImage
-Categories=$menuMenuserversCategory
-Type=Directory" | sudo tee ~/.local/share/desktop-directories/$menuMenuserversFile
+Name=$menuName  
+Comment=$menuDescription 
+Icon=$menuImage 
+Categories=$category 
+Type=Directory" | sudo tee $fileDirectory 
+fi
 
+pathMenu=/etc/xdg/menus/cinnamon-applications.menu 
 
-# pathMenu=/etc/xdg/menus/cinnamon-applications.menu 
-# sudo sed -i '/<Merge type="menus"\/>/a <Menuname>'$menuMenuserversName'</Menuname>' $pathMenu
-# sudo sed -i '/<\/Layout>/a <Menu> \n <Name>'$menuMenuserversName'<\/Name> \n <Directory>'$menuMenuserversFile'<\/Directory> \n <Include> \n <And> \n <Category>'$menuMenuserversCategory'<\/Category> \n <\/And> \n <\/Include> \n <\/Menu>' $pathMenu
+# se não existir o menu, cria
+existeMenu=$(grep -r "<Menuname>$menuName</Menuname>" $pathMenu)
+
+if [ -z "$existeMenu" ]; then
+    sudo sed -i '/<Merge type="menus"\/>/a <Menuname>'"$menuName"'<\/Menuname>' $pathMenu
+    sudo sed -i '/<\/Layout>/a <Menu> \n <Name>'"$menuName"'<\/Name> \n <Directory>'$menuFile'<\/Directory> \n <Include> \n <And> \n <Category>'$category'<\/Category> \n <\/And> \n <\/Include> \n <\/Menu>' $pathMenu
+fi
