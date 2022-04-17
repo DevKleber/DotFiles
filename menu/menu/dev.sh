@@ -1,7 +1,7 @@
 #!/bin/bash
 menuName="Dev Tools"
 menuDescription=""
-menuImage="$pathImagesMenu/devTools.png"
+menuImage="$pathImagesMenu/dev.png"
 menuFile="cinnamon-dev.directory"
 category="Dev"
 
