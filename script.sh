@@ -32,6 +32,9 @@ source posInstalacao.sh
 source crontab.sh
 
 source git.sh
+
+source menu.sh
+
 source angular.sh
 
 source ohMyZsh.sh
