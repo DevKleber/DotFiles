@@ -24,6 +24,8 @@ source qbittorrent.sh
 
 source aptInstall.sh
 
+source php-versions.sh
+
 source composer.sh
 source laravel.sh
 
