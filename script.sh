@@ -17,19 +17,19 @@ mkdir $DIRETORIO_DOWNLOADS
 # source vscode.sh
 # source instalandoDeb.sh
 
-source spotify.sh
-source node.sh
-source peek.sh
-source qbittorrent.sh
+# source spotify.sh
+# source node.sh
+# source peek.sh
+# source qbittorrent.sh
 
 #source aptInstall.sh
 
 #source php-versions.sh
 
-source composer.sh
+# source composer.sh
 # source laravel.sh
 
-source posInstalacao.sh
+# source posInstalacao.sh
 
 # source crontab.sh
 
@@ -39,7 +39,7 @@ source posInstalacao.sh
 
 #source angular.sh
 
-#source ohMyZsh.sh
+source ohMyZsh.sh
 
 #source android.sh
 
