@@ -38,7 +38,7 @@ mkdir $DIRETORIO_DOWNLOADS
 #source menu.sh
 
 #source angular.sh
-source docker.sh
+# source docker.sh
 source ohMyZsh.sh
 
 #source android.sh

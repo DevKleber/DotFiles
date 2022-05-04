@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Instalando Zsh"
-apt install zsh
+sudo apt install zsh
 
 echo "Versão do Zsh"
 zsh --version
