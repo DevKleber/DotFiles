@@ -36,3 +36,13 @@ docker compose version
 echo "Parando de pedir sudo"
 sudo usermod -aG docker $USER
 newgrp docker
+
+
+
+# se der erro ao instalar o docker compose tente assim. 
+
+mkdir -p ~/.docker/cli-plugins/
+# pegar versão atual no github
+curl -SL https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
+chmod +x ~/.docker/cli-plugins/docker-compose
+docker compose version
