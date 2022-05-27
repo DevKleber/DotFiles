@@ -30,6 +30,10 @@ source menu/item/servers/sigamaproducao.sh
 source menu/item/atualizar_server/sigaderr.sh
 source menu/item/atualizar_server/sigama.sh
 
+# reiniciar server
+source menu/item/reiniciar_server/sigaderr.sh
+source menu/item/reiniciar_server/sidapi.sh
+
 
 # source menu/menu/phpversion.sh
 # source menu/item/php7.1.sh
