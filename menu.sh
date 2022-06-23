@@ -30,6 +30,7 @@ source menu/item/servers/sisdiagro.sh
 # source menu/menu/atualizar_server.sh
 source menu/item/atualizar_server/sigaderr.sh
 source menu/item/atualizar_server/sigama.sh
+source menu/item/atualizar_server/sisdiagro.sh
 
 # reiniciar server
 source menu/item/reiniciar_server/sigaderr.sh
