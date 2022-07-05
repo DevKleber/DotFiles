@@ -25,6 +25,7 @@ source menu/item/servers/sigama_bancodados.sh
 source menu/item/servers/sigama-homologacao.sh
 source menu/item/servers/sigamaproducao.sh
 source menu/item/servers/sisdiagro.sh
+source menu/item/servers/conexoes.sh
 
 # atualizar_server
 # source menu/menu/atualizar_server.sh
