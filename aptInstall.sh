@@ -2,7 +2,7 @@
 
 PROGRAMAS_PARA_INSTALAR=(
   curl
-#  plank
+  plank
 #  git
 #  redis-server
 #  apache2
