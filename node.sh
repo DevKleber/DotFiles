@@ -28,3 +28,14 @@ if ! dpkg -l | grep -q $comando; then # Only install if not already installed
   else
     echo "[INSTALADO] - $comando"
 fi
+
+# OUUUUU USE NVM 
+# https://github.com/nvm-sh/nvm
+# To install or update nvm, you should run the install script. To do that, 
+# you may either download and run the script manually, or use the following cURL or Wget command:
+# PEGUE NO SITE A VERSAO ATUALIZADA. 
+# curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+
+# $ nvm install 16
+# $ nvm use 16
