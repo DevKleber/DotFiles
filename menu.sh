@@ -25,6 +25,8 @@ source menu/item/servers/sigama_bancodados.sh
 source menu/item/servers/sigama-homologacao.sh
 source menu/item/servers/sigamaproducao.sh
 source menu/item/servers/sisdiagro.sh
+source menu/item/servers/ikhon-aderr-homologacao.sh
+source menu/item/servers/ikhon-aderr-producao.sh
 source menu/item/servers/conexoes.sh
 
 # atualizar_server

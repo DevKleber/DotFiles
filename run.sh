@@ -37,11 +37,11 @@ mkdir $DIRETORIO_DOWNLOADS
 
 # source fonts.sh
 
-# source menu.sh
+source menu.sh
 
 #source angular.sh
 # source docker.sh
-source ohMyZsh.sh
+# source ohMyZsh.sh
 
 #source android.sh
 
