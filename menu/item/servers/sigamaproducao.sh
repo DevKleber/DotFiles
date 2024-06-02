@@ -11,7 +11,7 @@ if [ ! -f $menuItemPath ]; then
 sudo touch $menuItemPath
 echo "[Desktop Entry]
 Name=$name
-Exec=/home/$USER/atalhos/servers/sigamaproducao.sh
+Exec=/home/$USER/atalhos/servers/sigamaproducao-apache.sh
 Comment=$Comment
 Terminal=true
 Icon=$pathImagesMenu/servers.png

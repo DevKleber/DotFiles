@@ -2,8 +2,8 @@
 
 PROGRAMAS_PARA_INSTALAR=(
   curl
-  plank
-#  git
+  git
+#   plank
 #  redis-server
 #  apache2
 #  mysql-server
