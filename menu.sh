@@ -36,6 +36,14 @@ source menu/item/servers/ikhon-aderr-homologacao-new.sh
 source menu/item/servers/ikhon-aderr-deploy.sh
 source menu/item/servers/ikhon-aderr-producao.sh
 
+source menu/item/servers/sigeal_codigo.sh
+source menu/item/servers/sigeal-bancodedados-producao.sh
+source menu/item/servers/sigeal-homologacao.sh
+
+source menu/item/servers/ADAB-SIDAB-DB-PRD.sh
+source menu/item/servers/ADAB-SIDAB-HML.sh
+source menu/item/servers/ADAB-SIDAB-PRD.sh
+
 source menu/item/servers/conexoes.sh
 
 # atualizar_server

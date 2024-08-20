@@ -35,7 +35,7 @@ mkdir $DIRETORIO_DOWNLOADS
 
 # source git.sh
 
-source fonts.sh
+# source fonts.sh
 
 # source menu.sh
 
