@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 name="Ipe web Hostgator"
 Comment="Conectar ao servidor Hostgator Ipe web"
 menuItemPath="/usr/share/applications/serversipehostgator.desktop"

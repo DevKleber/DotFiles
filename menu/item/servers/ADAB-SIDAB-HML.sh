@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 name="ADAB - Homologação"
 Comment="Servidor - ADAB-SIDAB-HML para hospedar a Aplicação de Homologação do Sistema SIDAB"
 menuItemPath="/usr/share/applications/serversADAB-SIDAB-HML.desktop"

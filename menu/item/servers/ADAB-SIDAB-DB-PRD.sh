@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 name="ADAB - Banco de dados produção"
 Comment="Servidor - ADAB-SIDAB-DB-PRD para hospedar o Banco PostgreSQL de Produção para o Sistema SIDAB"
 menuItemPath="/usr/share/applications/serversADAB-SIDAB-DB-PRD.desktop"

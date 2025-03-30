@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="SIDAP"
 Comment="Conectar ao servidor SIDAP"

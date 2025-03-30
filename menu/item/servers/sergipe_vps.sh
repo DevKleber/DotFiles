@@ -1,15 +1,16 @@
 #!/bin/bash
 
-name="ADAB - código produção apache"
-Comment="Servidor - ADAB-SIDAB-PRD para hospedar a Aplicação de Produção do Sistema SIDAB"
-menuItemPath="/usr/share/applications/serversADAB-SIDAB-PRD.desktop"
+
+name="SIDASE SERGIPE - VPS banco e código"
+Comment="Conectar ao servidor SERGIPE"
+menuItemPath="/usr/share/applications/serverssergipe_vps.desktop"
 
 # se não existir, cria o item
 if [ ! -f $menuItemPath ]; then
 sudo touch $menuItemPath
 echo "[Desktop Entry]
 Name=$name
-Exec=/home/$USER/atalhos/servers/bahia/ADAB-SIDAB-PRD.sh
+Exec=/home/$USER/atalhos/servers/sergipe_vps.sh
 Comment=$Comment
 Terminal=true
 Icon=$pathImagesMenu/servers.png

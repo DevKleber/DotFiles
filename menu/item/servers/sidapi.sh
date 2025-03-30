@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="SIDAPI"
 Comment="Conectar ao servidor SIDAPI"

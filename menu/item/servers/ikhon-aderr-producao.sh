@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 name="Ikhon Aderr Producao"
 Comment="Conectar ao servidor Ikhon Aderr Producao"
 menuItemPath="/usr/share/applications/ikhon-aderr-producao.desktop"

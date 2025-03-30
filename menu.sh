@@ -4,19 +4,30 @@ source menu/copyImages.sh
 
 # Desenvolvimentos em geral
 # source menu/menu/dev.sh
+# source menu/menu/servers.sh # cinamon - linux mint [após a criação do menu comentar para não repetir]
+
 # source menu/item/Dev/git.sh
 # source menu/item/Dev/atualizar.sh
 source menu/item/Dev/switchMonitor.sh
 
 # conectar nos servidores
-# source menu/menu/servers.sh
-# source menu/item/servers/sigaderr.sh
+
 source menu/item/servers/ipeweb_hostgator.sh
+source menu/item/servers/ipeweb_nas.sh
 source menu/item/servers/ipeweb_banco.sh
 source menu/item/servers/ipeweb_codigo.sh
+source menu/item/servers/ipewebinfra.sh
+
+#falcon
+source menu/item/servers/falcon.sh
+
+# filhos SIDAGO
+source menu/item/servers/siagro.sh
+source menu/item/servers/sidato_vps.sh
+source menu/item/servers/sergipe_vps.sh
+source menu/item/servers/sigaderr.sh
 
 
-# source menu/item/servers/bartergooglecloud.sh
 # source menu/item/servers/sidaam-bancoproducao.sh
 # source menu/item/servers/sidaam-codigo+bdhomologacao.sh
 source menu/item/servers/sidap-homologacao.sh
@@ -31,11 +42,6 @@ source menu/item/servers/sigamaproducaoscripts.sh
 
 source menu/item/servers/sisdiagro.sh
 
-source menu/item/servers/ikhon-aderr-homologacao.sh
-source menu/item/servers/ikhon-aderr-homologacao-new.sh
-source menu/item/servers/ikhon-aderr-deploy.sh
-source menu/item/servers/ikhon-aderr-producao.sh
-
 source menu/item/servers/sigeal_codigo.sh
 source menu/item/servers/sigeal-bancodedados-producao.sh
 source menu/item/servers/sigeal-homologacao.sh
@@ -43,18 +49,6 @@ source menu/item/servers/sigeal-homologacao.sh
 source menu/item/servers/ADAB-SIDAB-DB-PRD.sh
 source menu/item/servers/ADAB-SIDAB-HML.sh
 source menu/item/servers/ADAB-SIDAB-PRD.sh
-
-source menu/item/servers/conexoes.sh
-
-# atualizar_server
-# source menu/menu/atualizar_server.sh
-source menu/item/atualizar_server/sigaderr.sh
-source menu/item/atualizar_server/sigama.sh
-source menu/item/atualizar_server/sisdiagro.sh
-
-# reiniciar server
-source menu/item/reiniciar_server/sigaderr.sh
-source menu/item/reiniciar_server/sidapi.sh
 
 
 # source menu/menu/phpversion.sh

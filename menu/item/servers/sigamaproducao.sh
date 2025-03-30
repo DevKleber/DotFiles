@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="SIGAMA - Produção"
 Comment="Conectar ao servidor SIGAMA - Produção"

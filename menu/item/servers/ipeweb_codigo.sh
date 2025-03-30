@@ -1,10 +1,8 @@
 #!/bin/bash
 
-#!/bin/bash
-
 name="Ipê web código"
 Comment="Conectar ao servidor Ipê web código"
-menuItemPath="/usr/share/applications/serversipewebcodigo.sh.desktop"
+menuItemPath="/usr/share/applications/serversipewebcodigo.desktop"
 
 # se não existir, cria o item
 if [ ! -f $menuItemPath ]; then

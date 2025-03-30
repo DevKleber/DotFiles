@@ -1,15 +1,16 @@
 #!/bin/bash
 
-name="ADAB - código produção apache"
-Comment="Servidor - ADAB-SIDAB-PRD para hospedar a Aplicação de Produção do Sistema SIDAB"
-menuItemPath="/usr/share/applications/serversADAB-SIDAB-PRD.desktop"
+name="FALCON"
+Comment="Acessa o servidor FALCON onde rodam serviços como banco de dados, API"
+
+menuItemPath="/usr/share/applications/serversfalcon.desktop"
 
 # se não existir, cria o item
 if [ ! -f $menuItemPath ]; then
 sudo touch $menuItemPath
 echo "[Desktop Entry]
 Name=$name
-Exec=/home/$USER/atalhos/servers/bahia/ADAB-SIDAB-PRD.sh
+Exec=/home/$USER/atalhos/servers/falcon.sh
 Comment=$Comment
 Terminal=true
 Icon=$pathImagesMenu/servers.png

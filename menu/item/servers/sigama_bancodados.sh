@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="SIGAMA - Banco de Dados produção"
 Comment="Conectar ao servidor SIGAMA - Banco de Dados produção"

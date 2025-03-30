@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 menuName="Servers"
 menuDescription="Conectar ao servidor"
 menuImage="$pathImagesMenu/servers.png"

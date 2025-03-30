@@ -1,15 +1,16 @@
 #!/bin/bash
 
-name="ADAB - código produção apache"
-Comment="Servidor - ADAB-SIDAB-PRD para hospedar a Aplicação de Produção do Sistema SIDAB"
-menuItemPath="/usr/share/applications/serversADAB-SIDAB-PRD.desktop"
+
+name="SIDATO - VPS banco e código"
+Comment="Conectar ao servidor SIDATO"
+menuItemPath="/usr/share/applications/serverssidato_vps.desktop"
 
 # se não existir, cria o item
 if [ ! -f $menuItemPath ]; then
 sudo touch $menuItemPath
 echo "[Desktop Entry]
 Name=$name
-Exec=/home/$USER/atalhos/servers/bahia/ADAB-SIDAB-PRD.sh
+Exec=/home/$USER/atalhos/servers/sidato_vps.sh
 Comment=$Comment
 Terminal=true
 Icon=$pathImagesMenu/servers.png

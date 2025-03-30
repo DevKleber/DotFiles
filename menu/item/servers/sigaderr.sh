@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="SIGADERR"
 Comment="Conectar ao servidor sigaderr"
@@ -11,7 +10,7 @@ if [ ! -f $menuItemPath ]; then
 sudo touch $menuItemPath
 echo "[Desktop Entry]
 Name=$name
-Exec=/home/$USER/atalhos/servers/sigaderrgoogle.sh
+Exec=/home/$USER/atalhos/servers/sigaderr.sh
 Comment=$Comment
 Terminal=true
 Icon=$pathImagesMenu/servers.png

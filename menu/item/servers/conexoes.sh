@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 name="Conexões"
 Comment="Escolher em qual servidor conectar"
 menuItemPath="/usr/share/applications/conexoes.desktop"

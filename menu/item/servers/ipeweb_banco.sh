@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="Ipê web banco"
 Comment="Conectar ao servidor Ipê web banco de dados"

@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="SIDAAM - Código + Banco de Dados homologação"
 Comment="Conectar ao servidor SIDAAM - Código + Banco de Dados homologação"

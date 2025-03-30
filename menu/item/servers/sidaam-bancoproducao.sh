@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="SIDAAM - Banco de Dados produção"
 Comment="Conectar ao servidor SIDAAM - Banco de Dados produção"

@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="SIGEAL - Banco de dados produção"
 Comment="Conectar ao servidor de banco produção SIGEAL"

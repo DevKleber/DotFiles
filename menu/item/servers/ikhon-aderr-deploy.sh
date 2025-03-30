@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 name="Ikhon Aderr Homologacao Deploy"
 Comment="Conectar ao servidor Ikhon Aderr Homologacao Deploy"
 menuItemPath="/usr/share/applications/ikhon-aderr-deploy.desktop"

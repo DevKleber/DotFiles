@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="SIGEAL - Produção apache código"
 Comment="Conectar ao servidor de código produção SIGEAL"

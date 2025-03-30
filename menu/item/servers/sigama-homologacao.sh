@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="SIGAMA - Homologação"
 Comment="Conectar ao servidor SIGAMA - Homologação"

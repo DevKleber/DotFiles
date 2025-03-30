@@ -1,5 +1,30 @@
 #!/bin/bash
 
+echo "Instalando fira code nerd fonts"
+# Pasta onde as fontes do usuário ficam
+FONT_DIR="$HOME/.local/share/fonts"
+
+echo "🔤 Instalando FiraCode Nerd Font..."
+
+# Criar pasta se não existir
+mkdir -p "$FONT_DIR"
+cd "$FONT_DIR" || exit
+
+# Baixar o zip da fonte
+wget -O FiraCode.zip https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip
+
+# Descompactar
+unzip -o FiraCode.zip
+rm FiraCode.zip
+
+# Atualizar o cache de fontes
+fc-cache -fv
+
+echo "✅ FiraCode Nerd Font instalada com sucesso!"
+echo "👉 Agora vá nas configurações do terminal e selecione: 'FiraCode Nerd Font'"
+
+
+
 echo "Instalando fira code"
 
 content=`wget -O - https://github.com/tonsky/FiraCode/releases/latest`

@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="SIGEAL - Banco de homologação"
 Comment="Conectar ao servidor de homologação SIGEAL"

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 name="BARTER"
 Comment="Conectar ao servidor BARTER"
 menuItemPath="/usr/share/applications/serversbartergooglecloud.desktop"

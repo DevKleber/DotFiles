@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 name="Ikhon Aderr Homologacao New"
 Comment="Conectar ao servidor Ikhon Aderr Homologacao new"
 menuItemPath="/usr/share/applications/ikhon-aderr-homologacao-new.desktop"

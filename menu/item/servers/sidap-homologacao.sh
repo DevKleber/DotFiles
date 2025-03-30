@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 name="SIDAP - Homologação"
 Comment="Conectar ao servidor SIDAP - Homologação"
